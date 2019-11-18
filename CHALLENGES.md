@@ -9,19 +9,19 @@
 
 ### Login & Logout
 
-- [ ] Add the provided Django authentication views to the project's URLconf.
-- [ ] Test `/accounts/login` in your browser --- see if you can log in using username `admin` and password `djangopony`.
-- [ ] In `base.html`, hide the `New Page` and `Log Out` buttons for unauthenticated users.
-- [ ] When a user clicks `Log Out`, they are logged out of the system, and returned to the homepage.
-- [ ] When a user clicks `Log In`, they are navigated to the Login page.
+- [x] Add the provided Django authentication views to the project's URLconf.
+- [x] Test `/accounts/login` in your browser --- see if you can log in using username `admin` and password `djangopony`.
+- [x] In `base.html`, hide the `New Page` and `Log Out` buttons for unauthenticated users.
+- [x] When a user clicks `Log Out`, they are logged out of the system, and returned to the homepage.
+- [x] When a user clicks `Log In`, they are navigated to the Login page.
 - [ ] Replace `Hello, USERNAME` text with the username of the logged-in user, and only show it when the user is logged in.
 
 ### Signup
 
-- [ ] Create a new app named `accounts`. Add it to the `INSTALLED_APPS` list in `settings.py`.
+- [x] Create a new app named `accounts`. Add it to the `INSTALLED_APPS` list in `settings.py`.
 - [ ] Create a view for signing up:
-    - [ ] Must subclass `django.views.generic.CreateView`.
-    - [ ] Set `form_class` to `django.auth.forms.UserCreationForm`.
+    - [x] Must subclass `django.views.generic.CreateView`.
+    - [x] Set `form_class` to `django.auth.forms.UserCreationForm`.
     - [ ] Render the `registration/signup.html` template.
 - [ ] In `accounts/urls.py`, link `SignupView` to a URL named `signup`.
 - [ ] Add `accounts.urls` to the project's URLconf.
